@@ -11,7 +11,6 @@ export default defineConfig({
   title: 'Humi Docs',
   description: 'Documentation for Humi: the Appliance, the Cloud and the devices around them.',
   cleanUrls: true,
-  lastUpdated: true,
 
   // Light/dark mode is Humi's own (data-theme on <html>, shared with
   // cloud-ui through the humi-theme localStorage key), not VitePress's.
