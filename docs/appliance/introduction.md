@@ -9,6 +9,6 @@ Humi is a home automation system. It has two parts:
   your home and share it with the people in your Group.
 
 ::: tip Work in progress
-These docs are just getting started. See [Writing docs](./writing-docs) to
+These docs are just getting started. See [Writing docs](../writing-docs) to
 add a page.
 :::

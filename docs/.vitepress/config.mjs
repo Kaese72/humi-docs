@@ -51,7 +51,7 @@ export default defineConfig({
       { text: 'Back to cloud', link: 'https://cloud.humi.kaese.space/', target: '_self' },
     ],
 
-    // Cloud is a single page, so it has no sidebar.
+    // Cloud and Writing docs are single pages, so they have no sidebar.
     sidebar: {
       '/appliance/': [
         {
@@ -59,7 +59,6 @@ export default defineConfig({
           items: [
             { text: 'Introduction', link: '/appliance/introduction' },
             { text: 'Installation', link: '/appliance/installation' },
-            { text: 'Writing docs', link: '/appliance/writing-docs' },
           ],
         },
       ],

@@ -7,10 +7,12 @@ hero:
   tagline: Your home, your devices, and the optional Cloud around them.
   actions:
     - theme: brand
-      text: Get started
+      text: Appliance
       link: /appliance/introduction
     - theme: alt
-      text: Humi Cloud
-      link: https://cloud.humi.kaese.space/
-      target: _self
+      text: Cloud
+      link: /cloud
+    - theme: alt
+      text: Writing docs
+      link: /writing-docs
 ---

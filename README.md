@@ -17,7 +17,7 @@ This opens a development server, likely on http://localhost:5173/docs/
 
 ## Writing
 
-Pages are Markdown files under `docs/`. See `docs/appliance/writing-docs.md`.
+Pages are Markdown files under `docs/`. See `docs/writing-docs.md`.
 
 ## Styling
 
