@@ -40,6 +40,10 @@ export default defineConfig({
   themeConfig: {
     // The Humi logo replaces the title text (see theme/Layout.vue).
     siteTitle: false,
+    // The logo leads back to Humi Cloud, not the docs home. target makes
+    // VitePress's router leave the link to the browser: "/" is outside the
+    // /docs/ base, so the router would show its 404 page instead.
+    logoLink: { link: '/', target: '_self' },
 
     search: {
       provider: 'local',
