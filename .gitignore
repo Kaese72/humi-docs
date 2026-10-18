@@ -34,3 +34,6 @@ nginx
 .resources
 
 openapi.yaml
+
+# VitePress dev-server cache
+docs/.vitepress/cache

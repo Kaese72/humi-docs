@@ -5,8 +5,8 @@ The docs are Markdown files under `docs/`, built by
 
 ## Adding a page
 
-1. Create a `.md` file, e.g. `docs/guide/rules.md`. Its URL is the path
-   without the extension: `/docs/guide/rules`.
+1. Create a `.md` file, e.g. `docs/appliance/rules.md`. Its URL is the path
+   without the extension: `/docs/appliance/rules`.
 2. Add it to the sidebar in `docs/.vitepress/config.mjs`.
 
 Search picks up every page automatically when the site is built.

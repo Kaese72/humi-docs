@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Get started
-      link: /guide/introduction
+      link: /appliance/introduction
     - theme: alt
       text: Humi Cloud
       link: https://cloud.humi.kaese.space/

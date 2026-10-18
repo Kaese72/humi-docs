@@ -40,27 +40,26 @@ export default defineConfig({
   themeConfig: {
     // The Humi logo replaces the title text (see theme/Layout.vue).
     siteTitle: false,
-    // The logo leads back to Humi Cloud, not the docs home. target makes
-    // VitePress's router leave the link to the browser: "/" is outside the
-    // /docs/ base, so the router would show its 404 page instead.
-    logoLink: { link: '/', target: '_self' },
 
     search: {
       provider: 'local',
     },
 
     nav: [
-      { text: 'Guide', link: '/guide/introduction', activeMatch: '/guide/' },
-      { text: 'Humi Cloud', link: 'https://cloud.humi.kaese.space/', target: '_self' },
+      { text: 'Appliance', link: '/appliance/introduction', activeMatch: '/appliance/' },
+      { text: 'Cloud', link: '/cloud' },
+      { text: 'Back to cloud', link: 'https://cloud.humi.kaese.space/', target: '_self' },
     ],
 
+    // Cloud is a single page, so it has no sidebar.
     sidebar: {
-      '/guide/': [
+      '/appliance/': [
         {
-          text: 'Guide',
+          text: 'Appliance',
           items: [
-            { text: 'Introduction', link: '/guide/introduction' },
-            { text: 'Writing docs', link: '/guide/writing-docs' },
+            { text: 'Introduction', link: '/appliance/introduction' },
+            { text: 'Installation', link: '/appliance/installation' },
+            { text: 'Writing docs', link: '/appliance/writing-docs' },
           ],
         },
       ],
